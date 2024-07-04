@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #ADD8E6;
+      padding: 20px;
+    }
+
+    header h1 {
+      color: white;
+      margin: 0;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    #contact {
+      padding: 20px;
+      background-color: #ADD8E6;
+      margin: 20px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #contact h2 {
+      margin-top: 0;
+      color: white;
+    }
+
+    #contact p {
+      margin-bottom: 0;
+    }
+
+    #message-form {
+      padding: 20px;
+      background-color: #ADD8E6;
+      margin: 20px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #message-form h2 {
+      margin-top: 0;
+      color: white;
+    }
+
+    #message-form label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    #message-form input,
+    #message-form textarea {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    #message-form button[type="submit"] {
+      background-color: white;
+      color: #4CAF50;
+      border: none;
+      padding: 10px 20px;
+      text-transform: uppercase;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    #message-form button[type="submit"]:hover {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    #social {
+      background-color: #ADD8E6;
+      padding: 10px;
+      text-align: center;
+      margin: 20px 0;
+      border-radius: 5px;
+    }
+
+    #social a {
+      color: white;
+      text-decoration: none;
+      margin: 0 5px;
+    }
+
+    footer {
+      background-color: #ADD8E6;
+      padding: 10px;
+      text-align: center;
+      color: white;
+      margin: 20px 0;
+      border-radius: 5px;
+    }
+
+    .home-button {
+      display: inline-block;
+      background-color: white;
+      color: #4CAF50;
+      border: 2px solid #4CAF50;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .home-button:hover {
+      background-color: #4CAF50;
+      color: white;
+    }
+  </style>
+  <title>Page de contact</title>
+</head>
+<body>
+  <header>
+    <h1>IKOTECH</h1>
+  </header>
+  <section id="contact">
+    <h2>Nous contacter</h2>
+    <p>Téléphone: 00226 77 86 53 78 </p>
+      <p>ou 00226 52 73 51 19</p>
+    <p> ou 00226 53 01 77 84</p>
+    <p>Email: khaliskone1@gmail.com</p>
+  </section>
+  <section id="message-form">
+    <h2>Laissez-nous un message</h2>
+    <form id="contactForm" method="post" action="message.html">
+      <label for="name">Nom:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+  <a class="home-button" href="index.html">Retour à l'accueil</a>
+  <section id="social">
+    <h2>Réseau social</h2>
+    <a href="#" target="_blank">Facebook</a>
+    <a href="#" target="_blank">Whatsapp</a>
+    <a href="#" target="_blank">Twitter</a>
+    <a href="#" target="_blank">LinkedIn</a>
+  </section>
+  <footer>
+    <p>&copy; 2024 IKOTECH. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>

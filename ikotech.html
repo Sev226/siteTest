@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ikotech - Votre Solution Technologique</title>
+    <style>
+        /* Styles pour le corps de la page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Styles pour l'en-tête */
+        header {
+            background-color: #0099cc;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Styles pour le logo */
+        #logo {
+            width: 100px;
+            height: 100px;
+            background-color: #87ceeb; /* Bleu ciel */
+            border-radius: 50%;
+            margin: 0 auto;
+        }
+
+        /* Styles pour la section principale */
+        .main-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Styles pour les boutons */
+        .btn {
+            background-color: #0099cc;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Styles pour le menu déroulant */
+        nav {
+            background-color: #333;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+            position: relative;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #0099cc;
+        }
+
+        /* Styles pour les sous-menus */
+        nav ul ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #444;
+            width: 200px;
+        }
+
+        nav ul li:hover > ul {
+            display: block;
+        }
+
+        nav ul ul li {
+            width: 100%;
+            text-align: left;
+            margin-right: 0;
+        }
+
+        nav ul ul li a {
+            padding: 10px;
+        }
+
+        /* Styles pour le footer */
+        footer {
+            background-color: #333;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+
+        footer p {
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: #0099cc;
+        }
+        }
+  
+ /*/* Styles pour la section de contact */
+        .contact-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #87ceeb; /* Bleu ciel */
+            border-radius: 20px; /* Bordures arrondies */
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Ombre légère */
+            transition: transform 0.3s; /* Effet d'agrandissement */ /* Ombre légère */
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .contact-info p {
+            font-size: 16px;
+        }
+  
+  .contact-section:hover {
+            transform: scale(1.05); /* Agrandissement au survol */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo"></div>
+        <h1>Ikotech</h1>
+        <p>Votre Solution Technologique</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li>
+                <a href="#">Services</a>
+                <ul>
+                    <li><a href="#">Chatbots</a></li>
+                    <li><a href="#">IA</a></li>
+                    <li><a href="#">Applications Mobiles</a></li>
+                    <li><a href="#">Conception Domotique</a></li>
+                    <li><a href="#">Formation</a></li>
+                    <li><a href="#">Site Internet</a></li>
+                    <li><a href="#">Avatar</a></li>
+                    <li><a href="#">Électricité Bâtiment</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Projets</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-section">
+        <h2>À Propos d'Ikotech</h2>
+        <p>Nous sommes une entreprise passionnée par la technologie, spécialisée dans les chatbots, l'intelligence artificielle, les applications mobiles et bien plus encore.</p>
+        <button class="btn">En Savoir Plus</button>
+    </div>
+          
+          
+         <div class="contact-section">
+        <h2>Contactez-nous</h2>
+        <div class="contact-info">
+            <p><strong>Téléphone :</strong>+226 54 70 80 52 ou +226 63 04 80 97</p>
+            <p><strong>Email :</strong> khaliskone1@gmail.com</p>
+            <p><strong>Adresse :</strong> 123 Rue Techno, Ouagadougou, Burkina Faso</p>
+        </div>
+    </div>
+          
+<footer>
+        <p>&copy; 2024 Ikotech. Tous droits réservés.</p>
+        <p><a href="#">Politique de confidentialité</a> | <a href="#">Mentions légales</a></p>
+    </footer>
